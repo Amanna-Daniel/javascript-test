@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffee</title>
+    <link href="https://fonts.googleapis.com/css2?family=Concert+One&family=Pacifico&family=Special+Elite&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Concert+One&family=Pacifico&display=swap" rel="stylesheet">
+    <style>
+       h1{
+        text-align: center;
+        color: #6C3428;
+        font-family: 'Concert One', cursive;
+        font-size: 90px;
+        border: 3px solid brown;
+        width: 500px;
+        margin-left: 400px;
+       }
+       h3{
+        font-family: 'Metal', cursive;
+       }
+       .bg-image{
+        background: url('./coffee\ with\ black\ top.jpg') no-repeat;
+        background-size: cover;
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        z-index: -2;
+        filter: blur(10px);
+       }
+       h2{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+       }
+       img{
+        height: 220px;
+        width: 250px;
+       }
+       .container{
+        display:grid;
+        grid-template-rows: 1fr ;
+        grid-template-columns: 1fr; 
+        gap: 10px;
+        width: 250px;
+       }
+       button{
+        font-size: 19px;
+       }
+       .home-buttn a{
+        text-decoration: none;
+        font-size: 20px;
+        font-family: 'Special Elite', cursive;
+        color: black;
+       }
+       .home-buttn a:hover{
+        color: white;
+        background-color: #6C3428;
+       }
+       body{
+        background-color: #EAC696;
+        position: relative;
+       }
+       .price-tag{
+        border: 3px solid brown;
+        border-radius: 5px;
+        width: 245px;
+        text-align: center;
+       }
+       .coffee{
+        width: 350px;
+        display: inline-block;
+        align-items: center;
+        justify-content: center;
+       }
+       span{
+        font-family: 'Special Elite', cursive;
+       }
+       ion-icon {
+         font-size: 24px;
+       }
+       .home-buttn{
+        display: flex;
+        align-items: center;
+       }
+    </style>
+</head>
+<body>  
+    <div class="home-buttn">
+        <div class="ion-icon">
+            <ion-icon name="home-outline"></ion-icon>
+        </div>
+        <a href="./index.html">Home</a>
+    </div>
+    <div class="header">
+        <h1>COFFEE MENU</h1>
+    </div>
+    <div class="container">
+        <div class="bg-image">
+
+        </div>
+        <div class="coffee espresso">
+            <img src="./espresso.png" alt="espresso coffee"> 
+             <h3>Espesso </h3>
+            <div class="price-tag">
+                <h2><span>Price</span>: $9.00 <button>Order now</button></h2>
+            </div>
+        </div>
+        <div class="coffee latte">
+           <img src="./latte.png" alt="latte"><br>
+           <h3>Latte</h3>
+           <div class="price-tag">
+            <h2><span>Price</span>: $8.99 <button>Order now</button></h2>
+           </div>
+        </div>
+        <div class="coffee cappuccino">
+            <img src="./cappuccino.png" alt="cappuccino">
+            <h3>Cappuccino</h3>
+            <div class="price-tag">
+             <h2><span>Price</span>: $8.99 <button>Order now</button></h2>
+            </div>
+            
+        </div>
+        <div class="coffee ristretto">
+            <img src="./ristretto.png" alt="ristretto">
+            <h3>Ristretto</h3>
+            <div class="price-tag">
+              <h2><span>Price</span>: $8.99 <button>Order now</button></h2>
+            </div>
+            
+        </div>
+        <div class="coffee americano">
+            <img src="./Americano.png" alt="americano">
+            <h3>Americano</h3>
+            <div class="price-tag">
+              <h2><span>Price</span>: $8.99 <button>Order now</button></h2>
+            </div>
+           
+        </div>
+        <div class="coffee doppio">
+            <img src="./doppio.png" alt="doppio">
+            <h3>Doppio</h3>
+            <div class="price-tag">
+               <h2><span>Price</span>: $8.99 <button>Order now</button></h2>
+            </div>
+           
+        </div>
+    </div>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
